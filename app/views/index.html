@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de Tareas</h1>
+        <div id="task-list"></div>
+        <form action="accion.php" method="post">
+            <p>id_task: <input type="text" name="id_task" /></p>
+            <p>description: <input type="text" name="description" /></p>
+            <p>status: <input type="text" name="status" /></p>
+            <p>hour_ini: <input type="text" name="hour_ini" /></p>
+            <p>hour_end: <input type="text" name="hour_end" /></p>
+            <p>Su user: <input type="text" name="user" /></p>
+            <p><input type="submit" /></p>
+        </form>
+    </div>
+</body>
+</html>
